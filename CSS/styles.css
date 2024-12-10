@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../image/image2.webp');
+    background-size: cover;
+}
+#A1{
+    height: 60px;
+    margin-left: 90px;
+    margin-top: 3px;
+
+}
+#he{
+    background-color: rgb(73, 16, 16);
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 12px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 6px;
+    margin-right: 3px;
+    
+}
+nav a:hover{
+    color: black;
+    background-color: teal;
+}
+.details{
+    color: rgba(243, 94, 8, 0.945);
+    margin-top: 13%;
+    margin-left: 5%;
+    width: 40%;
+    font-size: 20px;
+    float: left;
+    
+}
+.details ul li{
+    list-style-type: square;
+    padding-bottom: 2px;
+}
+h3{
+    padding-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    float: right;
+    margin-top: 60px;
+    margin-right: 30px;
+    border: 1px solid white;
+    padding: 45px 20px;
+    background-color: rgb(248, 255, 185);
+    
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 3px;
+    border: none;
+}
+.container{
+     margin-top: 450px;
+}
+.sbox{
+    border: 2px solid white;
+    background-color: gainsboro;
+    width: 20%;
+    float: left;
+    height: 15em;
+    padding: 5px;
+    margin-right: 3px;
+}
+.sbox h4{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.sbox p{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.sbox a{
+    text-decoration: none;
+    color: red;
+}
+footer{
+    color: white;
+    margin-top: 53%;
+    text-align: center;
+    background-color: black;
+    padding: 2px;
+    border: 2px solid black;
+    
+}
+@media screen and (max-width:450px) {
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+     
+     .container2{
+        display: flex;
+        
+        flex-flow: column wrap;
+        
+     }
+     form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+     }
+     nav{
+        display: flex;
+        flex-wrap: wrap;
+     }
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+     }
+    .sbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
