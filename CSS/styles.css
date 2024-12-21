@@ -6,14 +6,17 @@
 body{
     background-image: url('../image/image2.webp');
     background-size: cover;
+    
+    
 }
 #A1{
     height: 60px;
     margin-left: 90px;
     margin-top: 3px;
+    
 
 }
-#he{
+.header{
     background-color: rgb(73, 16, 16);
 }
 
@@ -98,7 +101,7 @@ button{
     text-decoration: none;
     color: red;
 }
-footer{
+.footer{
     color: white;
     margin-top: 53%;
     text-align: center;
@@ -107,37 +110,16 @@ footer{
     border: 2px solid black;
     
 }
-@media screen and (max-width:450px) {
-    .container1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-     
-     .container2{
-        display: flex;
-        
-        flex-flow: column wrap;
-        
-     }
-     form{
-        display: flex;
-        flex-wrap: wrap;
-        flex-flow: column;
-     }
-     nav{
-        display: flex;
-        flex-wrap: wrap;
-     }
-      .container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-flow: column;
-     }
-    .sbox{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-    }
+@media screen and (min-width:500px) {
+
+   .header, .footer{
+    width: 100%;
+   }
+  nav{
+    flex: 1;
+  }
+
 }
+
+    
+    
